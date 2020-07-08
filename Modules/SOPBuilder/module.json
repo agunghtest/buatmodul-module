@@ -1,0 +1,13 @@
+{
+    "name": "SOPBuilder",
+    "alias": "sopbuilder",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\SOPBuilder\\Providers\\SOPBuilderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

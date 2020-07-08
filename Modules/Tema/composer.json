@@ -1,0 +1,28 @@
+{
+    "name": "nwidart/tema",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Tema\\Providers\\TemaServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tema\\": ""
+        }
+    },
+    "require": {
+        "laravel/ui": "^2.1"
+    }
+}
