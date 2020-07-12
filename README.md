@@ -2,6 +2,7 @@
 - [php:7.4.4]
 - [composer:latest]
 - [nodejs:^12]
+- [or XAMPP v3.2.5](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.4/)
 
 ## About LAPAN E-Office
 
