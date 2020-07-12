@@ -1,0 +1,13 @@
+{
+    "name": "KinerjaIndividu",
+    "alias": "kinerjaindividu",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\KinerjaIndividu\\Providers\\KinerjaIndividuServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

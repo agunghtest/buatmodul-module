@@ -2,5 +2,7 @@
     "SOPBuilder": true,
     "Tema": true,
     "Core": true,
-    "Chat": true
+    "Chat": true,
+    "Presensi": true,
+    "KinerjaIndividu": true
 }

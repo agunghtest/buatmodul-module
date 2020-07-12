@@ -9737,7 +9737,7 @@ textarea.form-control {
         stroke-width: 2.25px; } }
   .dropdown-message .dropdown-link.new-indicator,
   .dropdown-notification .dropdown-link.new-indicator {
-    color: #1b2e4b; }
+    color: #5f6368; }
     .dropdown-message .dropdown-link.new-indicator span,
     .dropdown-notification .dropdown-link.new-indicator span {
       display: flex;
@@ -12744,7 +12744,7 @@ textarea.parsley-success:focus {
       .navbar-header .navbar-right {
         width: 240px; } }
     .navbar-header .navbar-right .search-link {
-      color: #001737; padding-left: 10px;}
+      color: #5f6368; padding-left: 10px;}
       .navbar-header .navbar-right .search-link:hover, .navbar-header .navbar-right .search-link:focus {
         color: rgba(0, 23, 55, 0.8); }
       .navbar-header .navbar-right .search-link svg {

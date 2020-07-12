@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/kinerjaindividu",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\KinerjaIndividu\\Providers\\KinerjaIndividuServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KinerjaIndividu\\": ""
+        }
+    }
+}
