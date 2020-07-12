@@ -11,6 +11,7 @@
 
 
 ## Core Fitures 
+- [Modular Plugin](https://nwidart.com/laravel-modules/v6/introduction)
 - [CRUD (Belom) - CrudEngine]
 - [Report (csv, xlsx, pdf) (Belom)]
 - [Level, Permission (Belom) - https://github.com/spatie/laravel-permission]
