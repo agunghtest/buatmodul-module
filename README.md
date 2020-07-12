@@ -9,11 +9,10 @@
 ## SSO Usage
 
 
-## Fiture
+## Core Fitures 
 - [CRUD (Belom) - CrudEngine]
 - [Report (csv, xlsx, pdf) (Belom)]
 - [Level, Permission (Belom) - https://github.com/spatie/laravel-permission]
 - [Service Notification (Kelar) (node-express-amqp)]
 - [Service Log (Belom)]
-
-
+- [SSO - CAS Apereo (phpCAS by subfission)]
