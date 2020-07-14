@@ -5,7 +5,7 @@ namespace Modules\Core\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-
+use Modules\Core\Entities\Settings;
 class CoreController extends Controller
 {
     /**
@@ -14,6 +14,8 @@ class CoreController extends Controller
      */
     public function index()
     {
+        echo config("core.name");
+        print_r(Settings::where('status', '=', '1')->get());
         return view('core::index');
     }
 
