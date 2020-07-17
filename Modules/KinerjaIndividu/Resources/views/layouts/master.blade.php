@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Module KinerjaIndividu</title>
-
-       {{-- Laravel Mix - CSS File --}}
-       {{-- <link rel="stylesheet" href="{{ mix('css/kinerjaindividu.css') }}"> --}}
-
-    </head>
-    <body>
+<head>
+    @include('tema::layouts.head')
+    <!-- end tema -->
+    {{-- Laravel Mix - CSS File --}}
+    {{-- <link rel="stylesheet" href="{{ mix('css/tema.css') }}"> --}}
+    @yield('style')
+    <link rel="stylesheet" href="{{asset('tema/assets/css/dashforge.chat.css')}}">
+</head>
+<body class="app-chat">
+    @include('tema::layouts.header')
         @yield('content')
+    @include('tema::layouts.footer')
+    @include('tema::layouts.javascript')
+    <script src="{{asset('tema/assets/js/dashforge.chat.js')}}"></script>
+    <script>
+      $(function(){
+        'use strict'
 
-        {{-- Laravel Mix - JS File --}}
-        {{-- <script src="{{ mix('js/kinerjaindividu.js') }}"></script> --}}
-    </body>
+        if(window.matchMedia('(min-width: 768px)').matches) {
+          $('body').addClass('show-sidebar-right');
+          $('#showMemberList').addClass('active');
+        }
+
+        window.darkMode = function(){
+          $('.btn-white').addClass('btn-dark').removeClass('btn-white');
+        }
+
+        window.lightMode = function() {
+          $('.btn-dark').addClass('btn-white').removeClass('btn-dark');
+        }
+
+        var hasMode = Cookies.get('df-mode');
+        if(hasMode === 'dark') {
+          darkMode();
+        } else {
+          lightMode();
+        }
+      })
+    </script>
+</body>
 </html>

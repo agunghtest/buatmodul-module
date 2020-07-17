@@ -20,6 +20,16 @@
           <!-- <li class="nav-sub-item"><a href="app-mail.html" class="nav-sub-link"><i data-feather="mail"></i>Mail</a></li> -->
         </ul>
       </li>
+	  <li class="nav-item with-sub">
+        <a href="" class="nav-link"><i class="icon ion-md-albums"></i> SIMPEG</a>
+        <ul class="navbar-menu-sub">
+          <li class="nav-sub-item"><a href="{{url('')}}" class="nav-sub-link"><i data-feather="calendar"></i>Presensi</a></li>
+          <li class="nav-sub-item"><a href="{{url('kinerjaindividu')}}" class="nav-sub-link"><i data-feather="message-square"></i>Kinerja Individu</a></li>
+          <!-- <li class="nav-sub-item"><a href="app-contacts.html" class="nav-sub-link"><i data-feather="users"></i>Contacts</a></li> -->
+          <!-- <li class="nav-sub-item"><a href="app-file-manager.html" class="nav-sub-link"><i data-feather="file-text"></i>File Manager</a></li> -->
+          <!-- <li class="nav-sub-item"><a href="app-mail.html" class="nav-sub-link"><i data-feather="mail"></i>Mail</a></li> -->
+        </ul>
+      </li>
     </ul>
   </div><!-- navbar-menu-wrapper -->
   <div class="navbar-right">

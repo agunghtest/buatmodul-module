@@ -34,7 +34,7 @@
 					 function(element, index, array) {
 					  appendBody += `<a href="" class="dropdown-item">
 					    <div class="media">
-					      <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/500" class="rounded" alt=""></div>	
+					      <div class="avatar avatar-sm avatar-online"><img src="https://via.placeholder.com/500" class="rounded" alt=""></div>
 					      <div class="media-body mg-l-15">
 					        <p>`+element.text+`</p>
 					        <span>`+jQuery.timeago(element.create_at)+`</span>
