@@ -38,26 +38,29 @@
                                             data-feather="user-check"></i></span></div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-0">Penilai</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">
-                                        Nama<br>
-                                        Jabatan<br>
-                                        Satker<br>
+                                    <small class="tx-12 tx-color-01 mg-b-0">
+                                        {{ $skp->nama_penilai }}<br>
+                                        {{ $skp->jabatan_penilai }}<br>
+                                        {{ $skp->satker_penilai }}<br>
                                     </small>
                                 </div>
                                 <div class="mg-l-auto text-right">
                                     <p class="tx-medium mg-b-0">Status Persetujuan</p>
-                                    <small class="tx-12 tx-danger mg-b-0">Completed</small><br>
-                                    <small class="tx-12 tx-success mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12
+                                    @if ($riwayatPersetujuanSkp->ket === "Disetujui")tx-success @elseif($riwayatPersetujuanSkp->ket === "Direvisi") tx-warning @elseif($riwayatPersetujuanSkp->ket === "Permohonan Persetujuan") tx-primary
+                                    @endif mg-b-0">
+                                    {{ $riwayatPersetujuanSkp->ket }}<br>
+                                    {{ formatTanggal($riwayatPersetujuanSkp->tgl, true) }}</small>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
-                                        class="avatar-initial rounded-circle bg-indigo op-5"><i
+                                        class="avatar-initial rounded-circle bg-primary op-5"><i
                                             data-feather="clock"></i></span>
                                 </div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Tanggal Pembuatan</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-color-01 mg-b-0">{{ formatTanggal($skp->tgl_pembuatan, true) }}</small>
                                 </div>
                             </li>
                         </ul>
@@ -89,17 +92,17 @@
                                         <tr>
                                             <td class="align-middle text-center"><a href=""><i data-feather="paperclip"
                                                         class="wd-12 ht-12 stroke-wd-3"></i></a></td>
-                                            <td class="align-middle tx-medium">Dokumen PK</td>
+                                            <td class="align-middle tx-medium">{{ $pk->dokumen_pk }}</td>
                                             <td class="align-middle text-right">
-                                                tanggal
+                                                {{ formatTanggal($pk->created_at->format('Y-m-d'), true) }}
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="align-middle text-center"><a href=""><i data-feather="paperclip"
                                                         class="wd-12 ht-12 stroke-wd-3"></i></a></td>
-                                            <td class="align-middle tx-medium">Dokumen Renaksi</td>
+                                            <td class="align-middle tx-medium">{{ $pk->dokumen_renaksi }}</td>
                                             <td class="align-middle text-right">
-                                                tanggal
+                                                {{ formatTanggal($pk->created_at->format('Y-m-d'), true) }}
                                             </td>
                                         </tr>
                                     </tbody>
@@ -125,11 +128,11 @@
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
                                         class="avatar-initial rounded-circle bg-orange op-5"><i
-                                            data-feather="copy"></i></span>
+                                            data-feather="edit-3"></i></span>
                                 </div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Format Persetujuan</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-color-03 mg-b-0">{{ $formatCapaianRenaksi->refPersetujuanLaptek->jenis }}</small>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex pd-sm-x-20">
@@ -225,11 +228,11 @@
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
                                         class="avatar-initial rounded-circle bg-orange op-5"><i
-                                            data-feather="copy"></i></span>
+                                            data-feather="edit-3"></i></span>
                                 </div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Format Persetujuan</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-color-03 mg-b-0">{{ $formatCapaianRenaksi->refPersetujuanLaptek->jenis }}</small>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex pd-sm-x-20">
@@ -301,11 +304,21 @@
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
                                         class="avatar-initial rounded-circle bg-orange op-5"><i
-                                            data-feather="copy"></i></span>
+                                            data-feather="edit-3"></i></span>
                                 </div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Format Persetujuan</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-color-03 mg-b-0">Atasan Langsung</small>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex pd-sm-x-20">
+                                <div class="avatar d-none d-sm-block"><span
+                                        class="avatar-initial rounded-circle bg-pink op-5"><i
+                                            data-feather="book"></i></span>
+                                </div>
+                                <div class="pd-sm-l-10">
+                                    <p class="tx-medium mg-b-2">Format Log Book</p>
+                                    <small class="tx-12 tx-color-03 mg-b-0">{{ $formatLogbook->refFormatLogbook->jenis }}</small>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex pd-sm-x-20">

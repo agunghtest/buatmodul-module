@@ -2,9 +2,15 @@
 
 namespace Modules\KinerjaIndividu\Http\Controllers;
 
+use App\Models\MstPk;
+use App\Models\MstSetLaptek;
+use App\Models\MstSetLogbook;
+use App\Models\RefPersetujuanLaptek;
+
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\DB;
 
 class KinerjaIndividuController extends Controller
 {
@@ -14,7 +20,35 @@ class KinerjaIndividuController extends Controller
      */
     public function index()
     {
-        return view('kinerjaindividu::index');
+        $skp = DB::table('view_master_skp')
+            ->where('id_pegawai', profilPns('id'))
+            ->first();
+
+        $riwayatPersetujuanSkp = DB::table('view_riwayat_persetujuan_skp')
+            ->where('id_mst_skp', $skp->id)
+            ->first();
+
+        $pk = MstPk::where('idp', profilPns('id'))
+            ->where('tahun', tahunSekarang())
+            ->where('deleted_at', null)
+            ->orderByDesc('created_at')
+            ->first();
+
+        $formatCapaianRenaksi = MstSetLaptek::where('id_mst_pegawai', profilPns('id'))
+            ->first();
+
+        $formatLogbook = MstSetLogbook::where('id_mst_pegawai', profilPns('id'))
+            ->first();
+
+        #dd($pk);
+
+        return view('kinerjaindividu::index', [
+            'skp' => $skp,
+            'riwayatPersetujuanSkp' => $riwayatPersetujuanSkp,
+            'pk' => $pk,
+            'formatCapaianRenaksi' => $formatCapaianRenaksi,
+            'formatLogbook' => $formatLogbook,
+        ]);
     }
 
     /**
