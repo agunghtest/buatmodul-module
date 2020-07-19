@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Tanggal Pembuatan</p>
-                                    <small class="tx-12 tx-color-01 mg-b-0">{{ formatTanggal($skp->tgl_pembuatan, true) }}</small>
+                                    <small class="tx-12 tx-color-01 mg-b-0">{{ formatTanggal($skp->tgl_pembuatan, true) }} </small>
                                 </div>
                             </li>
                         </ul>
@@ -94,7 +94,7 @@
                                                         class="wd-12 ht-12 stroke-wd-3"></i></a></td>
                                             <td class="align-middle tx-medium">{{ $pk->dokumen_pk }}</td>
                                             <td class="align-middle text-right">
-                                                {{ formatTanggal($pk->created_at->format('Y-m-d'), true) }}
+                                                {{ $pk->created_at->formatLocalized("%A, %d %B %Y") }}
                                             </td>
                                         </tr>
                                         <tr>
@@ -102,7 +102,7 @@
                                                         class="wd-12 ht-12 stroke-wd-3"></i></a></td>
                                             <td class="align-middle tx-medium">{{ $pk->dokumen_renaksi }}</td>
                                             <td class="align-middle text-right">
-                                                {{ formatTanggal($pk->created_at->format('Y-m-d'), true) }}
+                                                {{ $pk->created_at->formatLocalized("%A, %d %B %Y") }}
                                             </td>
                                         </tr>
                                     </tbody>
@@ -154,7 +154,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-label">Bulan ini (Juli)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan ini (Juli)</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="media d-block d-sm-flex align-items-center">
@@ -182,7 +182,7 @@
                                 </div><!-- media -->
                             </li>
 
-                            <li class="list-label">BULAN SEBELUMNYA (JUNI)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya (Juni)</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="media d-block d-sm-flex align-items-center">
@@ -254,7 +254,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-label">Bulan ini (Juli)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan ini (Juli)</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
@@ -270,7 +270,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-label">Bulan Sebelumnya (Juni)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya (Juni)</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
@@ -323,24 +323,18 @@
                             </li>
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
-                                        class="avatar-initial rounded-circle bg-teal"><i
-                                            data-feather="users"></i></span></div>
+                                        class="avatar-initial rounded-circle bg-teal"><i data-feather="users"></i></span></div>
                                 <div class="pd-sm-l-10">
-                                    <p class="tx-medium mg-b-0">Penilai 1 / tunggal</p>
+                                    <p class="tx-medium mg-b-0">Penilai </p>
                                     <small class="tx-12 tx-color-03 mg-b-0">
-                                        Nama<br>
-                                        Jabatan<br>
-                                        OFK<br>
+                                        {{ $penilaiLogbook->nama_penilai }}<br>
+                                        {{ $penilaiLogbook->jab_penilai }}<br>
+                                        {{ $penilaiLogbook->satker_penilai }}<br>
                                     </small>
-                                </div>
-                                <div class="mg-l-auto text-right">
-                                    <p class="tx-medium mg-b-0">Status Persetujuan</p>
-                                    <small class="tx-12 tx-danger mg-b-0">Completed</small><br>
-                                    <small class="tx-12 tx-success mg-b-0">Mar 21, 2019, 1:00pm</small>
                                 </div>
                             </li>
 
-                            <li class="list-label">Bulan ini (Juli)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Ini ({{ $pk->created_at->formatLocalized("%A, %d %B %Y") }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
@@ -356,7 +350,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-label">Bulan Sebelumnya (Juni)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya (Juni)</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span

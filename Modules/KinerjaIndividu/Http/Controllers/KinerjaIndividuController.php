@@ -40,6 +40,10 @@ class KinerjaIndividuController extends Controller
         $formatLogbook = MstSetLogbook::where('id_mst_pegawai', profilPns('id'))
             ->first();
 
+        $penilaiLogbook = DB::table('view_penilai_logbook')
+            ->where('id_pegawai', profilPns('id'))
+            ->first();
+
         #dd($pk);
 
         return view('kinerjaindividu::index', [
@@ -48,6 +52,7 @@ class KinerjaIndividuController extends Controller
             'pk' => $pk,
             'formatCapaianRenaksi' => $formatCapaianRenaksi,
             'formatLogbook' => $formatLogbook,
+            'penilaiLogbook' => $penilaiLogbook,
         ]);
     }
 

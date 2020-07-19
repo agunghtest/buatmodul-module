@@ -34601,3 +34601,1767 @@ CE30 .<= true
 0323 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
 0323 .|    <= true
 0323 .<= true
+C68C .START (2020-07-19 00:22:24) phpCAS-1.3.8 ****************** [CAS.php:475]
+C68C .Loaded configuration:
+C68C .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C68C .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C68C .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C68C .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+C68C .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+C68C .|    <= ''
+C68C .<= ''
+C68C .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C68C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C68C .<= ''
+C68C .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C68C .<= ''
+C68C .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C68C .<= ''
+C68C .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C68C .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C68C .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C68C .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+C68C .|    |    <= true
+C68C .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+C68C .|    <= true
+C68C .<= true
+7DEB .START (2020-07-19 00:22:30) phpCAS-1.3.8 ****************** [CAS.php:475]
+7DEB .Loaded configuration:
+7DEB .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+7DEB .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+7DEB .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+7DEB .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+7DEB .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+7DEB .|    <= ''
+7DEB .<= ''
+7DEB .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+7DEB .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7DEB .<= ''
+7DEB .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+7DEB .<= ''
+7DEB .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+7DEB .<= ''
+7DEB .=> phpCAS::isAuthenticated() [CasManager.php:290]
+7DEB .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+7DEB .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+7DEB .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+7DEB .|    |    <= true
+7DEB .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+7DEB .|    <= true
+7DEB .<= true
+AADF .START (2020-07-19 00:22:57) phpCAS-1.3.8 ****************** [CAS.php:475]
+AADF .Loaded configuration:
+AADF .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+AADF .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+AADF .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+AADF .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+AADF .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+AADF .|    <= ''
+AADF .<= ''
+AADF .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+AADF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AADF .<= ''
+AADF .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+AADF .<= ''
+AADF .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+AADF .<= ''
+AADF .=> phpCAS::isAuthenticated() [CasManager.php:290]
+AADF .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+AADF .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+AADF .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+AADF .|    |    <= true
+AADF .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+AADF .|    <= true
+AADF .<= true
+200B .START (2020-07-19 00:23:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+200B .Loaded configuration:
+200B .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+200B .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+200B .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+200B .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+200B .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+200B .|    <= ''
+200B .<= ''
+200B .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+200B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+200B .<= ''
+200B .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+200B .<= ''
+200B .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+200B .<= ''
+200B .=> phpCAS::isAuthenticated() [CasManager.php:290]
+200B .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+200B .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+200B .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+200B .|    |    <= true
+200B .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+200B .|    <= true
+200B .<= true
+7EA8 .START (2020-07-19 00:23:58) phpCAS-1.3.8 ****************** [CAS.php:475]
+7EA8 .Loaded configuration:
+7EA8 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+7EA8 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+7EA8 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+7EA8 .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+7EA8 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+7EA8 .|    <= ''
+7EA8 .<= ''
+7EA8 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+7EA8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7EA8 .<= ''
+7EA8 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+7EA8 .<= ''
+7EA8 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+7EA8 .<= ''
+7EA8 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+7EA8 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+7EA8 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+7EA8 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+7EA8 .|    |    <= true
+7EA8 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+7EA8 .|    <= true
+7EA8 .<= true
+AC5E .START (2020-07-19 00:24:27) phpCAS-1.3.8 ****************** [CAS.php:475]
+AC5E .Loaded configuration:
+AC5E .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+AC5E .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+AC5E .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+AC5E .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+AC5E .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+AC5E .|    <= ''
+AC5E .<= ''
+AC5E .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+AC5E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+AC5E .<= ''
+AC5E .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+AC5E .<= ''
+AC5E .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+AC5E .<= ''
+AC5E .=> phpCAS::isAuthenticated() [CasManager.php:290]
+AC5E .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+AC5E .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+AC5E .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+AC5E .|    |    <= true
+AC5E .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+AC5E .|    <= true
+AC5E .<= true
+2F62 .START (2020-07-19 00:25:13) phpCAS-1.3.8 ****************** [CAS.php:475]
+2F62 .Loaded configuration:
+2F62 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+2F62 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+2F62 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+2F62 .|    |    Starting a new session 71c9f00c6ee793561659286bebf4a2983060c7eea470e5bd8eb00b7ac4c306aa [Client.php:932]
+2F62 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+2F62 .|    <= ''
+2F62 .<= ''
+2F62 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+2F62 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2F62 .<= ''
+2F62 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+2F62 .<= ''
+2F62 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+2F62 .<= ''
+2F62 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+2F62 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+2F62 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2F62 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+2F62 .|    |    <= true
+2F62 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+2F62 .|    <= true
+2F62 .<= true
+C5DD .START (2020-07-19 18:54:55) phpCAS-1.3.8 ****************** [CAS.php:475]
+C5DD .Loaded configuration:
+C5DD .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C5DD .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C5DD .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C5DD .|    |    Starting a new session eloi30icpn5pafd81fc1ntum4f [Client.php:932]
+C5DD .|    |    Session is not authenticated [Client.php:938]
+C5DD .|    <= ''
+C5DD .<= ''
+C5DD .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C5DD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C5DD .<= ''
+C5DD .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C5DD .<= ''
+C5DD .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C5DD .<= ''
+C5DD .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C5DD .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C5DD .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C5DD .|    |    |    no user found [Client.php:1640]
+C5DD .|    |    <= false
+C5DD .|    |    no ticket found [Client.php:1499]
+C5DD .|    <= false
+C5DD .<= false
+F05A .START (2020-07-19 18:54:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+F05A .Loaded configuration:
+F05A .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+F05A .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+F05A .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+F05A .|    |    Starting a new session eloi30icpn5pafd81fc1ntum4f [Client.php:932]
+F05A .|    |    Session is not authenticated [Client.php:938]
+F05A .|    <= ''
+F05A .<= ''
+F05A .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+F05A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F05A .<= ''
+F05A .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+F05A .<= ''
+F05A .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+F05A .<= ''
+F05A .=> phpCAS::isAuthenticated() [CasManager.php:290]
+F05A .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+F05A .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+F05A .|    |    |    no user found [Client.php:1640]
+F05A .|    |    <= false
+F05A .|    |    no ticket found [Client.php:1499]
+F05A .|    <= false
+F05A .<= false
+3700 .START (2020-07-19 18:54:58) phpCAS-1.3.8 ****************** [CAS.php:475]
+3700 .Loaded configuration:
+3700 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+3700 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+3700 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+3700 .|    |    Starting a new session eloi30icpn5pafd81fc1ntum4f [Client.php:932]
+3700 .|    |    Session is not authenticated [Client.php:938]
+3700 .|    <= ''
+3700 .<= ''
+3700 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+3700 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3700 .<= ''
+3700 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+3700 .<= ''
+3700 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+3700 .<= ''
+3700 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+3700 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+3700 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3700 .|    |    |    no user found [Client.php:1640]
+3700 .|    |    <= false
+3700 .|    |    no ticket found [Client.php:1499]
+3700 .|    <= false
+3700 .<= false
+3700 .=> phpCAS::forceAuthentication() [CasManager.php:170]
+3700 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+3700 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+3700 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3700 .|    |    |    |    no user found [Client.php:1640]
+3700 .|    |    |    <= false
+3700 .|    |    |    no ticket found [Client.php:1499]
+3700 .|    |    <= false
+3700 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+3700 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+3700 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+3700 .|    |    |    |    |    Final URI: http://localhost:8080/eoffice/public/sso [Client.php:3585]
+3700 .|    |    |    |    <= 'http://localhost:8080/eoffice/public/sso'
+3700 .|    |    |    <= 'https://login.lapan.go.id/cas/login?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso'
+3700 .|    |    |    Redirect to : https://login.lapan.go.id/cas/login?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso [Client.php:1668]
+3700 .|    |    |    exit()
+3700 .|    |    |    -
+3700 .|    |    -
+3700 .|    -
+179A .START (2020-07-19 18:55:03) phpCAS-1.3.8 ****************** [CAS.php:475]
+179A .Loaded configuration:
+179A .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+179A .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+179A .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+179A .|    |    Starting a new session eloi30icpn5pafd81fc1ntum4f [Client.php:932]
+179A .|    |    Session is not authenticated [Client.php:938]
+179A .|    |    Ticket 'ST-37638-At5NJzrC9mBzmGsqBvz1rilDBcU-c07081620183' found [Client.php:1026]
+179A .|    <= ''
+179A .<= ''
+179A .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+179A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+179A .<= ''
+179A .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+179A .<= ''
+179A .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+179A .<= ''
+179A .=> phpCAS::isAuthenticated() [CasManager.php:290]
+179A .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+179A .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+179A .|    |    |    no user found [Client.php:1640]
+179A .|    |    <= false
+179A .|    |    CAS 3.0 ticket `ST-37638-At5NJzrC9mBzmGsqBvz1rilDBcU-c07081620183' is present [Client.php:1451]
+179A .|    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+179A .|    |    |     [Client.php:3216]
+179A .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+179A .|    |    |    |    => CAS_Client::getURL() [Client.php:453]
+179A .|    |    |    |    |    Final URI: http://localhost:8080/eoffice/public/sso [Client.php:3585]
+179A .|    |    |    |    <= 'http://localhost:8080/eoffice/public/sso'
+179A .|    |    |    <= 'https://login.lapan.go.id/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso'
+179A .|    |    |    => CAS_Client::_readURL('https://login.lapan.go.id/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso&ticket=ST-37638-At5NJzrC9mBzmGsqBvz1rilDBcU-c07081620183', NULL, NULL, NULL) [Client.php:3237]
+179A .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+179A .|    |    |    |    |    Response Body: 
+179A .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+179A .|    |    |    |    |        <cas:authenticationSuccess>
+179A .|    |    |    |    |            <cas:user>herbowo.anggun</cas:user>
+179A .|    |    |    |    |            <cas:attributes>
+179A .|    |    |    |    |                <cas:credentialType>UsernamePasswordCredential</cas:credentialType>
+179A .|    |    |    |    |                <cas:isFromNewLogin>true</cas:isFromNewLogin>
+179A .|    |    |    |    |                <cas:mail>herbowo.anggun@lapan.go.id</cas:mail>
+179A .|    |    |    |    |                <cas:authenticationDate>2020-07-19T11:55:03.562281Z</cas:authenticationDate>
+179A .|    |    |    |    |                <cas:authenticationMethod>LdapAuthenticationHandler</cas:authenticationMethod>
+179A .|    |    |    |    |                <cas:givenName>Herbowo</cas:givenName>
+179A .|    |    |    |    |                <cas:successfulAuthenticationHandlers>LdapAuthenticationHandler</cas:successfulAuthenticationHandlers>
+179A .|    |    |    |    |                <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+179A .|    |    |    |    |                <cas:cn>herbowo.anggun</cas:cn>
+179A .|    |    |    |    |                </cas:attributes>
+179A .|    |    |    |    |        </cas:authenticationSuccess>
+179A .|    |    |    |    |    </cas:serviceResponse>
+179A .|    |    |    |    |    
+179A .|    |    |    |    |     [CurlRequest.php:84]
+179A .|    |    |    |    <= true
+179A .|    |    |    <= true
+179A .|    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+179A .|    |    |    |    Found nested jasig style attributes [Client.php:3383]
+179A .|    |    |    |    Attribute [credentialType] = UsernamePasswordCredential [Client.php:3389]
+179A .|    |    |    |    Attribute [isFromNewLogin] = true [Client.php:3389]
+179A .|    |    |    |    Attribute [mail] = herbowo.anggun@lapan.go.id [Client.php:3389]
+179A .|    |    |    |    Attribute [authenticationDate] = 2020-07-19T11:55:03.562281Z [Client.php:3389]
+179A .|    |    |    |    Attribute [authenticationMethod] = LdapAuthenticationHandler [Client.php:3389]
+179A .|    |    |    |    Attribute [givenName] = Herbowo [Client.php:3389]
+179A .|    |    |    |    Attribute [successfulAuthenticationHandlers] = LdapAuthenticationHandler [Client.php:3389]
+179A .|    |    |    |    Attribute [longTermAuthenticationRequestTokenUsed] = false [Client.php:3389]
+179A .|    |    |    |    Attribute [cn] = herbowo.anggun [Client.php:3389]
+179A .|    |    |    <= ''
+179A .|    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+179A .|    |    |    |    No proxies were found in the response [AllowedList.php:81]
+179A .|    |    |    <= true
+179A .|    |    |    => CAS_Client::_renameSession('ST-37638-At5NJzrC9mBzmGsqBvz1rilDBcU-c07081620183') [Client.php:3331]
+179A .|    |    |    |    Killing session: eloi30icpn5pafd81fc1ntum4f [Client.php:3718]
+179A .|    |    |    |    Starting session: 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:3722]
+179A .|    |    |    |    Restoring old session vars [Client.php:3725]
+179A .|    |    |    <= ''
+179A .|    |    <= true
+179A .|    |    CAS 3.0 ticket `ST-37638-At5NJzrC9mBzmGsqBvz1rilDBcU-c07081620183' was validated [Client.php:1457]
+179A .|    |    => CAS_Client::getURL() [Client.php:1523]
+179A .|    |    <= 'http://localhost:8080/eoffice/public/sso'
+179A .|    |    Prepare redirect to : http://localhost:8080/eoffice/public/sso [Client.php:1523]
+179A .|    |    => CAS_Client::getURL() [Client.php:1525]
+179A .|    |    <= 'http://localhost:8080/eoffice/public/sso'
+179A .|    |    exit()
+179A .|    |    -
+179A .|    -
+2CA0 .START (2020-07-19 18:55:04) phpCAS-1.3.8 ****************** [CAS.php:475]
+2CA0 .Loaded configuration:
+2CA0 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+2CA0 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+2CA0 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+2CA0 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+2CA0 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+2CA0 .|    <= ''
+2CA0 .<= ''
+2CA0 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+2CA0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2CA0 .<= ''
+2CA0 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+2CA0 .<= ''
+2CA0 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+2CA0 .<= ''
+2CA0 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+2CA0 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+2CA0 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2CA0 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+2CA0 .|    |    <= true
+2CA0 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+2CA0 .|    <= true
+2CA0 .<= true
+C275 .START (2020-07-19 18:55:04) phpCAS-1.3.8 ****************** [CAS.php:475]
+C275 .Loaded configuration:
+C275 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C275 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C275 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C275 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+C275 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+C275 .|    <= ''
+C275 .<= ''
+C275 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C275 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C275 .<= ''
+C275 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C275 .<= ''
+C275 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C275 .<= ''
+C275 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C275 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C275 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C275 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+C275 .|    |    <= true
+C275 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+C275 .|    <= true
+C275 .<= true
+C275 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C275 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C275 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C275 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+C275 .|    |    <= true
+C275 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+C275 .|    <= true
+C275 .<= true
+0F07 .START (2020-07-19 18:55:09) phpCAS-1.3.8 ****************** [CAS.php:475]
+0F07 .Loaded configuration:
+0F07 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+0F07 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+0F07 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+0F07 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+0F07 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+0F07 .|    <= ''
+0F07 .<= ''
+0F07 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+0F07 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0F07 .<= ''
+0F07 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+0F07 .<= ''
+0F07 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+0F07 .<= ''
+0F07 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+0F07 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+0F07 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+0F07 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+0F07 .|    |    <= true
+0F07 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+0F07 .|    <= true
+0F07 .<= true
+7BA8 .START (2020-07-19 18:57:57) phpCAS-1.3.8 ****************** [CAS.php:475]
+7BA8 .Loaded configuration:
+7BA8 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+7BA8 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+7BA8 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+7BA8 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+7BA8 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+7BA8 .|    <= ''
+7BA8 .<= ''
+7BA8 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+7BA8 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7BA8 .<= ''
+7BA8 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+7BA8 .<= ''
+7BA8 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+7BA8 .<= ''
+7BA8 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+7BA8 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+7BA8 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+7BA8 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+7BA8 .|    |    <= true
+7BA8 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+7BA8 .|    <= true
+7BA8 .<= true
+33C7 .START (2020-07-19 18:58:10) phpCAS-1.3.8 ****************** [CAS.php:475]
+33C7 .Loaded configuration:
+33C7 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+33C7 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+33C7 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+33C7 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+33C7 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+33C7 .|    <= ''
+33C7 .<= ''
+33C7 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+33C7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+33C7 .<= ''
+33C7 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+33C7 .<= ''
+33C7 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+33C7 .<= ''
+33C7 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+33C7 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+33C7 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+33C7 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+33C7 .|    |    <= true
+33C7 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+33C7 .|    <= true
+33C7 .<= true
+1D59 .START (2020-07-19 18:58:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+1D59 .Loaded configuration:
+1D59 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+1D59 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+1D59 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+1D59 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+1D59 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+1D59 .|    <= ''
+1D59 .<= ''
+1D59 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+1D59 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+1D59 .<= ''
+1D59 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+1D59 .<= ''
+1D59 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+1D59 .<= ''
+1D59 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+1D59 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+1D59 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+1D59 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+1D59 .|    |    <= true
+1D59 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+1D59 .|    <= true
+1D59 .<= true
+9525 .START (2020-07-19 18:58:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+9525 .Loaded configuration:
+9525 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+9525 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+9525 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+9525 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+9525 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+9525 .|    <= ''
+9525 .<= ''
+9525 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+9525 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9525 .<= ''
+9525 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+9525 .<= ''
+9525 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+9525 .<= ''
+9525 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+9525 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+9525 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+9525 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+9525 .|    |    <= true
+9525 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+9525 .|    <= true
+9525 .<= true
+3A8D .START (2020-07-19 18:59:43) phpCAS-1.3.8 ****************** [CAS.php:475]
+3A8D .Loaded configuration:
+3A8D .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+3A8D .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+3A8D .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+3A8D .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+3A8D .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+3A8D .|    <= ''
+3A8D .<= ''
+3A8D .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+3A8D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3A8D .<= ''
+3A8D .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+3A8D .<= ''
+3A8D .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+3A8D .<= ''
+3A8D .=> phpCAS::isAuthenticated() [CasManager.php:290]
+3A8D .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+3A8D .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3A8D .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+3A8D .|    |    <= true
+3A8D .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+3A8D .|    <= true
+3A8D .<= true
+443E .START (2020-07-19 20:24:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+443E .Loaded configuration:
+443E .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+443E .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+443E .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+443E .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+443E .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+443E .|    <= ''
+443E .<= ''
+443E .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+443E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+443E .<= ''
+443E .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+443E .<= ''
+443E .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+443E .<= ''
+443E .=> phpCAS::isAuthenticated() [CasManager.php:290]
+443E .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+443E .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+443E .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+443E .|    |    <= true
+443E .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+443E .|    <= true
+443E .<= true
+05E6 .START (2020-07-19 20:24:48) phpCAS-1.3.8 ****************** [CAS.php:475]
+05E6 .Loaded configuration:
+05E6 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+05E6 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+05E6 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+05E6 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+05E6 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+05E6 .|    <= ''
+05E6 .<= ''
+05E6 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+05E6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+05E6 .<= ''
+05E6 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+05E6 .<= ''
+05E6 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+05E6 .<= ''
+05E6 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+05E6 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+05E6 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+05E6 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+05E6 .|    |    <= true
+05E6 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+05E6 .|    <= true
+05E6 .<= true
+733A .START (2020-07-19 20:25:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+733A .Loaded configuration:
+733A .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+733A .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+733A .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+733A .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+733A .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+733A .|    <= ''
+733A .<= ''
+733A .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+733A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+733A .<= ''
+733A .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+733A .<= ''
+733A .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+733A .<= ''
+733A .=> phpCAS::isAuthenticated() [CasManager.php:290]
+733A .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+733A .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+733A .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+733A .|    |    <= true
+733A .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+733A .|    <= true
+733A .<= true
+0B24 .START (2020-07-19 20:29:45) phpCAS-1.3.8 ****************** [CAS.php:475]
+0B24 .Loaded configuration:
+0B24 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+0B24 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+0B24 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+0B24 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+0B24 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+0B24 .|    <= ''
+0B24 .<= ''
+0B24 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+0B24 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0B24 .<= ''
+0B24 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+0B24 .<= ''
+0B24 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+0B24 .<= ''
+0B24 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+0B24 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+0B24 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+0B24 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+0B24 .|    |    <= true
+0B24 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+0B24 .|    <= true
+0B24 .<= true
+FE63 .START (2020-07-19 20:30:13) phpCAS-1.3.8 ****************** [CAS.php:475]
+FE63 .Loaded configuration:
+FE63 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+FE63 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+FE63 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+FE63 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+FE63 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+FE63 .|    <= ''
+FE63 .<= ''
+FE63 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+FE63 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+FE63 .<= ''
+FE63 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+FE63 .<= ''
+FE63 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+FE63 .<= ''
+FE63 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+FE63 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+FE63 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+FE63 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+FE63 .|    |    <= true
+FE63 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+FE63 .|    <= true
+FE63 .<= true
+FA7C .START (2020-07-19 20:30:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+FA7C .Loaded configuration:
+FA7C .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+FA7C .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+FA7C .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+FA7C .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+FA7C .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+FA7C .|    <= ''
+FA7C .<= ''
+FA7C .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+FA7C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+FA7C .<= ''
+FA7C .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+FA7C .<= ''
+FA7C .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+FA7C .<= ''
+FA7C .=> phpCAS::isAuthenticated() [CasManager.php:290]
+FA7C .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+FA7C .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+FA7C .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+FA7C .|    |    <= true
+FA7C .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+FA7C .|    <= true
+FA7C .<= true
+8EB0 .START (2020-07-19 20:35:29) phpCAS-1.3.8 ****************** [CAS.php:475]
+8EB0 .Loaded configuration:
+8EB0 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+8EB0 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+8EB0 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+8EB0 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+8EB0 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+8EB0 .|    <= ''
+8EB0 .<= ''
+8EB0 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+8EB0 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8EB0 .<= ''
+8EB0 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+8EB0 .<= ''
+8EB0 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+8EB0 .<= ''
+8EB0 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+8EB0 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+8EB0 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+8EB0 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+8EB0 .|    |    <= true
+8EB0 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+8EB0 .|    <= true
+8EB0 .<= true
+F1BA .START (2020-07-19 20:35:40) phpCAS-1.3.8 ****************** [CAS.php:475]
+F1BA .Loaded configuration:
+F1BA .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+F1BA .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+F1BA .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+F1BA .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+F1BA .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+F1BA .|    <= ''
+F1BA .<= ''
+F1BA .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+F1BA .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F1BA .<= ''
+F1BA .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+F1BA .<= ''
+F1BA .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+F1BA .<= ''
+F1BA .=> phpCAS::isAuthenticated() [CasManager.php:290]
+F1BA .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+F1BA .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+F1BA .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+F1BA .|    |    <= true
+F1BA .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+F1BA .|    <= true
+F1BA .<= true
+27D3 .START (2020-07-19 20:37:04) phpCAS-1.3.8 ****************** [CAS.php:475]
+27D3 .Loaded configuration:
+27D3 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+27D3 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+27D3 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+27D3 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+27D3 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+27D3 .|    <= ''
+27D3 .<= ''
+27D3 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+27D3 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+27D3 .<= ''
+27D3 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+27D3 .<= ''
+27D3 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+27D3 .<= ''
+27D3 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+27D3 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+27D3 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+27D3 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+27D3 .|    |    <= true
+27D3 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+27D3 .|    <= true
+27D3 .<= true
+770C .START (2020-07-19 20:37:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+770C .Loaded configuration:
+770C .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+770C .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+770C .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+770C .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+770C .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+770C .|    <= ''
+770C .<= ''
+770C .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+770C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+770C .<= ''
+770C .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+770C .<= ''
+770C .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+770C .<= ''
+770C .=> phpCAS::isAuthenticated() [CasManager.php:290]
+770C .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+770C .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+770C .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+770C .|    |    <= true
+770C .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+770C .|    <= true
+770C .<= true
+33C5 .START (2020-07-19 20:37:46) phpCAS-1.3.8 ****************** [CAS.php:475]
+33C5 .Loaded configuration:
+33C5 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+33C5 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+33C5 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+33C5 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+33C5 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+33C5 .|    <= ''
+33C5 .<= ''
+33C5 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+33C5 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+33C5 .<= ''
+33C5 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+33C5 .<= ''
+33C5 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+33C5 .<= ''
+33C5 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+33C5 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+33C5 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+33C5 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+33C5 .|    |    <= true
+33C5 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+33C5 .|    <= true
+33C5 .<= true
+F06D .START (2020-07-19 20:38:18) phpCAS-1.3.8 ****************** [CAS.php:475]
+F06D .Loaded configuration:
+F06D .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+F06D .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+F06D .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+F06D .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+F06D .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+F06D .|    <= ''
+F06D .<= ''
+F06D .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+F06D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F06D .<= ''
+F06D .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+F06D .<= ''
+F06D .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+F06D .<= ''
+F06D .=> phpCAS::isAuthenticated() [CasManager.php:290]
+F06D .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+F06D .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+F06D .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+F06D .|    |    <= true
+F06D .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+F06D .|    <= true
+F06D .<= true
+7E5B .START (2020-07-19 20:39:00) phpCAS-1.3.8 ****************** [CAS.php:475]
+7E5B .Loaded configuration:
+7E5B .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+7E5B .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+7E5B .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+7E5B .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+7E5B .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+7E5B .|    <= ''
+7E5B .<= ''
+7E5B .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+7E5B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+7E5B .<= ''
+7E5B .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+7E5B .<= ''
+7E5B .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+7E5B .<= ''
+7E5B .=> phpCAS::isAuthenticated() [CasManager.php:290]
+7E5B .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+7E5B .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+7E5B .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+7E5B .|    |    <= true
+7E5B .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+7E5B .|    <= true
+7E5B .<= true
+7E5B .=> phpCAS::isAuthenticated() [CasManager.php:290]
+7E5B .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+7E5B .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+7E5B .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+7E5B .|    |    <= true
+7E5B .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+7E5B .|    <= true
+7E5B .<= true
+40B3 .START (2020-07-19 20:44:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+40B3 .Loaded configuration:
+40B3 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+40B3 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+40B3 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+40B3 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+40B3 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+40B3 .|    <= ''
+40B3 .<= ''
+40B3 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+40B3 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+40B3 .<= ''
+40B3 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+40B3 .<= ''
+40B3 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+40B3 .<= ''
+40B3 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+40B3 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+40B3 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+40B3 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+40B3 .|    |    <= true
+40B3 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+40B3 .|    <= true
+40B3 .<= true
+FAB1 .START (2020-07-19 20:48:19) phpCAS-1.3.8 ****************** [CAS.php:475]
+FAB1 .Loaded configuration:
+FAB1 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+FAB1 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+FAB1 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+FAB1 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+FAB1 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+FAB1 .|    <= ''
+FAB1 .<= ''
+FAB1 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+FAB1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+FAB1 .<= ''
+FAB1 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+FAB1 .<= ''
+FAB1 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+FAB1 .<= ''
+FAB1 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+FAB1 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+FAB1 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+FAB1 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+FAB1 .|    |    <= true
+FAB1 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+FAB1 .|    <= true
+FAB1 .<= true
+C009 .START (2020-07-19 20:54:56) phpCAS-1.3.8 ****************** [CAS.php:475]
+C009 .Loaded configuration:
+C009 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C009 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C009 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C009 .|    |    Starting a new session 74d45bce61194ba278f04527ecec691b638c39e79cad6d9a62fc592241e10c25 [Client.php:932]
+C009 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+C009 .|    <= ''
+C009 .<= ''
+C009 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C009 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C009 .<= ''
+C009 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C009 .<= ''
+C009 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C009 .<= ''
+C009 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C009 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C009 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C009 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+C009 .|    |    <= true
+C009 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+C009 .|    <= true
+C009 .<= true
+E04E .START (2020-07-19 20:57:36) phpCAS-1.3.8 ****************** [CAS.php:475]
+E04E .Loaded configuration:
+E04E .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+E04E .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+E04E .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+E04E .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+E04E .|    |    Session is not authenticated [Client.php:938]
+E04E .|    <= ''
+E04E .<= ''
+E04E .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+E04E .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E04E .<= ''
+E04E .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+E04E .<= ''
+E04E .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+E04E .<= ''
+E04E .=> phpCAS::isAuthenticated() [CasManager.php:290]
+E04E .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+E04E .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+E04E .|    |    |    no user found [Client.php:1640]
+E04E .|    |    <= false
+E04E .|    |    no ticket found [Client.php:1499]
+E04E .|    <= false
+E04E .<= false
+F671 .START (2020-07-19 20:59:23) phpCAS-1.3.8 ****************** [CAS.php:475]
+F671 .Loaded configuration:
+F671 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+F671 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+F671 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+F671 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+F671 .|    |    Session is not authenticated [Client.php:938]
+F671 .|    <= ''
+F671 .<= ''
+F671 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+F671 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F671 .<= ''
+F671 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+F671 .<= ''
+F671 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+F671 .<= ''
+F671 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+F671 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+F671 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+F671 .|    |    |    no user found [Client.php:1640]
+F671 .|    |    <= false
+F671 .|    |    no ticket found [Client.php:1499]
+F671 .|    <= false
+F671 .<= false
+5099 .START (2020-07-19 20:59:44) phpCAS-1.3.8 ****************** [CAS.php:475]
+5099 .Loaded configuration:
+5099 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+5099 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+5099 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+5099 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+5099 .|    |    Session is not authenticated [Client.php:938]
+5099 .|    <= ''
+5099 .<= ''
+5099 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+5099 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5099 .<= ''
+5099 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+5099 .<= ''
+5099 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+5099 .<= ''
+5099 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+5099 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+5099 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+5099 .|    |    |    no user found [Client.php:1640]
+5099 .|    |    <= false
+5099 .|    |    no ticket found [Client.php:1499]
+5099 .|    <= false
+5099 .<= false
+3119 .START (2020-07-19 21:00:53) phpCAS-1.3.8 ****************** [CAS.php:475]
+3119 .Loaded configuration:
+3119 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+3119 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+3119 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+3119 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+3119 .|    |    Session is not authenticated [Client.php:938]
+3119 .|    <= ''
+3119 .<= ''
+3119 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+3119 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3119 .<= ''
+3119 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+3119 .<= ''
+3119 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+3119 .<= ''
+3119 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+3119 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+3119 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3119 .|    |    |    no user found [Client.php:1640]
+3119 .|    |    <= false
+3119 .|    |    no ticket found [Client.php:1499]
+3119 .|    <= false
+3119 .<= false
+E346 .START (2020-07-19 21:01:14) phpCAS-1.3.8 ****************** [CAS.php:475]
+E346 .Loaded configuration:
+E346 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+E346 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+E346 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+E346 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+E346 .|    |    Session is not authenticated [Client.php:938]
+E346 .|    <= ''
+E346 .<= ''
+E346 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+E346 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+E346 .<= ''
+E346 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+E346 .<= ''
+E346 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+E346 .<= ''
+E346 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+E346 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+E346 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+E346 .|    |    |    no user found [Client.php:1640]
+E346 .|    |    <= false
+E346 .|    |    no ticket found [Client.php:1499]
+E346 .|    <= false
+E346 .<= false
+EB9A .START (2020-07-19 21:01:51) phpCAS-1.3.8 ****************** [CAS.php:475]
+EB9A .Loaded configuration:
+EB9A .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+EB9A .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+EB9A .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+EB9A .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+EB9A .|    |    Session is not authenticated [Client.php:938]
+EB9A .|    <= ''
+EB9A .<= ''
+EB9A .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+EB9A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EB9A .<= ''
+EB9A .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+EB9A .<= ''
+EB9A .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+EB9A .<= ''
+EB9A .=> phpCAS::isAuthenticated() [CasManager.php:290]
+EB9A .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+EB9A .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+EB9A .|    |    |    no user found [Client.php:1640]
+EB9A .|    |    <= false
+EB9A .|    |    no ticket found [Client.php:1499]
+EB9A .|    <= false
+EB9A .<= false
+C3EF .START (2020-07-19 21:02:13) phpCAS-1.3.8 ****************** [CAS.php:475]
+C3EF .Loaded configuration:
+C3EF .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C3EF .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C3EF .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C3EF .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+C3EF .|    |    Session is not authenticated [Client.php:938]
+C3EF .|    <= ''
+C3EF .<= ''
+C3EF .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C3EF .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C3EF .<= ''
+C3EF .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C3EF .<= ''
+C3EF .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C3EF .<= ''
+C3EF .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C3EF .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C3EF .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C3EF .|    |    |    no user found [Client.php:1640]
+C3EF .|    |    <= false
+C3EF .|    |    no ticket found [Client.php:1499]
+C3EF .|    <= false
+C3EF .<= false
+DC49 .START (2020-07-19 21:06:46) phpCAS-1.3.8 ****************** [CAS.php:475]
+DC49 .Loaded configuration:
+DC49 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+DC49 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+DC49 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+DC49 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+DC49 .|    |    Session is not authenticated [Client.php:938]
+DC49 .|    <= ''
+DC49 .<= ''
+DC49 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+DC49 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DC49 .<= ''
+DC49 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+DC49 .<= ''
+DC49 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+DC49 .<= ''
+DC49 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+DC49 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+DC49 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+DC49 .|    |    |    no user found [Client.php:1640]
+DC49 .|    |    <= false
+DC49 .|    |    no ticket found [Client.php:1499]
+DC49 .|    <= false
+DC49 .<= false
+F6C2 .START (2020-07-19 21:07:04) phpCAS-1.3.8 ****************** [CAS.php:475]
+F6C2 .Loaded configuration:
+F6C2 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+F6C2 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+F6C2 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+F6C2 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+F6C2 .|    |    Session is not authenticated [Client.php:938]
+F6C2 .|    <= ''
+F6C2 .<= ''
+F6C2 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+F6C2 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F6C2 .<= ''
+F6C2 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+F6C2 .<= ''
+F6C2 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+F6C2 .<= ''
+F6C2 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+F6C2 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+F6C2 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+F6C2 .|    |    |    no user found [Client.php:1640]
+F6C2 .|    |    <= false
+F6C2 .|    |    no ticket found [Client.php:1499]
+F6C2 .|    <= false
+F6C2 .<= false
+8945 .START (2020-07-19 21:07:31) phpCAS-1.3.8 ****************** [CAS.php:475]
+8945 .Loaded configuration:
+8945 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+8945 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+8945 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+8945 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+8945 .|    |    Session is not authenticated [Client.php:938]
+8945 .|    <= ''
+8945 .<= ''
+8945 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+8945 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+8945 .<= ''
+8945 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+8945 .<= ''
+8945 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+8945 .<= ''
+8945 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+8945 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+8945 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+8945 .|    |    |    no user found [Client.php:1640]
+8945 .|    |    <= false
+8945 .|    |    no ticket found [Client.php:1499]
+8945 .|    <= false
+8945 .<= false
+F81C .START (2020-07-19 21:07:32) phpCAS-1.3.8 ****************** [CAS.php:475]
+F81C .Loaded configuration:
+F81C .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+F81C .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+F81C .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+F81C .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+F81C .|    |    Session is not authenticated [Client.php:938]
+F81C .|    <= ''
+F81C .<= ''
+F81C .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+F81C .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+F81C .<= ''
+F81C .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+F81C .<= ''
+F81C .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+F81C .<= ''
+F81C .=> phpCAS::isAuthenticated() [CasManager.php:290]
+F81C .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+F81C .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+F81C .|    |    |    no user found [Client.php:1640]
+F81C .|    |    <= false
+F81C .|    |    no ticket found [Client.php:1499]
+F81C .|    <= false
+F81C .<= false
+2742 .START (2020-07-19 21:07:35) phpCAS-1.3.8 ****************** [CAS.php:475]
+2742 .Loaded configuration:
+2742 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+2742 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+2742 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+2742 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+2742 .|    |    Session is not authenticated [Client.php:938]
+2742 .|    <= ''
+2742 .<= ''
+2742 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+2742 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+2742 .<= ''
+2742 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+2742 .<= ''
+2742 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+2742 .<= ''
+2742 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+2742 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+2742 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2742 .|    |    |    no user found [Client.php:1640]
+2742 .|    |    <= false
+2742 .|    |    no ticket found [Client.php:1499]
+2742 .|    <= false
+2742 .<= false
+2742 .=> phpCAS::forceAuthentication() [CasManager.php:170]
+2742 .|    => CAS_Client::forceAuthentication() [CAS.php:1120]
+2742 .|    |    => CAS_Client::isAuthenticated() [Client.php:1286]
+2742 .|    |    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+2742 .|    |    |    |    no user found [Client.php:1640]
+2742 .|    |    |    <= false
+2742 .|    |    |    no ticket found [Client.php:1499]
+2742 .|    |    <= false
+2742 .|    |    => CAS_Client::redirectToCas(false) [Client.php:1295]
+2742 .|    |    |    => CAS_Client::getServerLoginURL(false, false) [Client.php:1661]
+2742 .|    |    |    |    => CAS_Client::getURL() [Client.php:342]
+2742 .|    |    |    |    |    Final URI: http://localhost:8080/eoffice/public/sso [Client.php:3585]
+2742 .|    |    |    |    <= 'http://localhost:8080/eoffice/public/sso'
+2742 .|    |    |    <= 'https://login.lapan.go.id/cas/login?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso'
+2742 .|    |    |    Redirect to : https://login.lapan.go.id/cas/login?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso [Client.php:1668]
+2742 .|    |    |    exit()
+2742 .|    |    |    -
+2742 .|    |    -
+2742 .|    -
+3145 .START (2020-07-19 21:07:38) phpCAS-1.3.8 ****************** [CAS.php:475]
+3145 .Loaded configuration:
+3145 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+3145 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+3145 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+3145 .|    |    Starting a new session obfa80rc9tchea003hqrivc56i [Client.php:932]
+3145 .|    |    Session is not authenticated [Client.php:938]
+3145 .|    |    Ticket 'ST-37642-KFqiYKypCpRgFf2SbCXTlk9MuFs-c07081620183' found [Client.php:1026]
+3145 .|    <= ''
+3145 .<= ''
+3145 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+3145 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3145 .<= ''
+3145 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+3145 .<= ''
+3145 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+3145 .<= ''
+3145 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+3145 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+3145 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3145 .|    |    |    no user found [Client.php:1640]
+3145 .|    |    <= false
+3145 .|    |    CAS 3.0 ticket `ST-37642-KFqiYKypCpRgFf2SbCXTlk9MuFs-c07081620183' is present [Client.php:1451]
+3145 .|    |    => CAS_Client::validateCAS20('', NULL, NULL, false) [Client.php:1454]
+3145 .|    |    |     [Client.php:3216]
+3145 .|    |    |    => CAS_Client::getServerServiceValidateURL() [Client.php:3222]
+3145 .|    |    |    |    => CAS_Client::getURL() [Client.php:453]
+3145 .|    |    |    |    |    Final URI: http://localhost:8080/eoffice/public/sso [Client.php:3585]
+3145 .|    |    |    |    <= 'http://localhost:8080/eoffice/public/sso'
+3145 .|    |    |    <= 'https://login.lapan.go.id/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso'
+3145 .|    |    |    => CAS_Client::_readURL('https://login.lapan.go.id/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A8080%2Feoffice%2Fpublic%2Fsso&ticket=ST-37642-KFqiYKypCpRgFf2SbCXTlk9MuFs-c07081620183', NULL, NULL, NULL) [Client.php:3237]
+3145 .|    |    |    |    => CAS_Request_CurlRequest::sendRequest() [AbstractRequest.php:242]
+3145 .|    |    |    |    |    Response Body: 
+3145 .|    |    |    |    |    <cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+3145 .|    |    |    |    |        <cas:authenticationSuccess>
+3145 .|    |    |    |    |            <cas:user>herbowo.anggun</cas:user>
+3145 .|    |    |    |    |            <cas:attributes>
+3145 .|    |    |    |    |                <cas:credentialType>UsernamePasswordCredential</cas:credentialType>
+3145 .|    |    |    |    |                <cas:isFromNewLogin>true</cas:isFromNewLogin>
+3145 .|    |    |    |    |                <cas:mail>herbowo.anggun@lapan.go.id</cas:mail>
+3145 .|    |    |    |    |                <cas:authenticationDate>2020-07-19T14:07:38.714149Z</cas:authenticationDate>
+3145 .|    |    |    |    |                <cas:authenticationMethod>LdapAuthenticationHandler</cas:authenticationMethod>
+3145 .|    |    |    |    |                <cas:givenName>Herbowo</cas:givenName>
+3145 .|    |    |    |    |                <cas:successfulAuthenticationHandlers>LdapAuthenticationHandler</cas:successfulAuthenticationHandlers>
+3145 .|    |    |    |    |                <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+3145 .|    |    |    |    |                <cas:cn>herbowo.anggun</cas:cn>
+3145 .|    |    |    |    |                </cas:attributes>
+3145 .|    |    |    |    |        </cas:authenticationSuccess>
+3145 .|    |    |    |    |    </cas:serviceResponse>
+3145 .|    |    |    |    |    
+3145 .|    |    |    |    |     [CurlRequest.php:84]
+3145 .|    |    |    |    <= true
+3145 .|    |    |    <= true
+3145 .|    |    |    => CAS_Client::_readExtraAttributesCas20(DOMNodeList) [Client.php:3301]
+3145 .|    |    |    |    Found nested jasig style attributes [Client.php:3383]
+3145 .|    |    |    |    Attribute [credentialType] = UsernamePasswordCredential [Client.php:3389]
+3145 .|    |    |    |    Attribute [isFromNewLogin] = true [Client.php:3389]
+3145 .|    |    |    |    Attribute [mail] = herbowo.anggun@lapan.go.id [Client.php:3389]
+3145 .|    |    |    |    Attribute [authenticationDate] = 2020-07-19T14:07:38.714149Z [Client.php:3389]
+3145 .|    |    |    |    Attribute [authenticationMethod] = LdapAuthenticationHandler [Client.php:3389]
+3145 .|    |    |    |    Attribute [givenName] = Herbowo [Client.php:3389]
+3145 .|    |    |    |    Attribute [successfulAuthenticationHandlers] = LdapAuthenticationHandler [Client.php:3389]
+3145 .|    |    |    |    Attribute [longTermAuthenticationRequestTokenUsed] = false [Client.php:3389]
+3145 .|    |    |    |    Attribute [cn] = herbowo.anggun [Client.php:3389]
+3145 .|    |    |    <= ''
+3145 .|    |    |    => CAS_ProxyChain_AllowedList::isProxyListAllowed(array ()) [Client.php:3313]
+3145 .|    |    |    |    No proxies were found in the response [AllowedList.php:81]
+3145 .|    |    |    <= true
+3145 .|    |    |    => CAS_Client::_renameSession('ST-37642-KFqiYKypCpRgFf2SbCXTlk9MuFs-c07081620183') [Client.php:3331]
+3145 .|    |    |    |    Killing session: obfa80rc9tchea003hqrivc56i [Client.php:3718]
+3145 .|    |    |    |    Starting session: 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:3722]
+3145 .|    |    |    |    Restoring old session vars [Client.php:3725]
+3145 .|    |    |    <= ''
+3145 .|    |    <= true
+3145 .|    |    CAS 3.0 ticket `ST-37642-KFqiYKypCpRgFf2SbCXTlk9MuFs-c07081620183' was validated [Client.php:1457]
+3145 .|    |    => CAS_Client::getURL() [Client.php:1523]
+3145 .|    |    <= 'http://localhost:8080/eoffice/public/sso'
+3145 .|    |    Prepare redirect to : http://localhost:8080/eoffice/public/sso [Client.php:1523]
+3145 .|    |    => CAS_Client::getURL() [Client.php:1525]
+3145 .|    |    <= 'http://localhost:8080/eoffice/public/sso'
+3145 .|    |    exit()
+3145 .|    |    -
+3145 .|    -
+6BE7 .START (2020-07-19 21:07:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+6BE7 .Loaded configuration:
+6BE7 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+6BE7 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+6BE7 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+6BE7 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+6BE7 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+6BE7 .|    <= ''
+6BE7 .<= ''
+6BE7 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+6BE7 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6BE7 .<= ''
+6BE7 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+6BE7 .<= ''
+6BE7 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+6BE7 .<= ''
+6BE7 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+6BE7 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+6BE7 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+6BE7 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+6BE7 .|    |    <= true
+6BE7 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+6BE7 .|    <= true
+6BE7 .<= true
+9B75 .START (2020-07-19 21:07:39) phpCAS-1.3.8 ****************** [CAS.php:475]
+9B75 .Loaded configuration:
+9B75 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+9B75 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+9B75 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+9B75 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+9B75 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+9B75 .|    <= ''
+9B75 .<= ''
+9B75 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+9B75 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9B75 .<= ''
+9B75 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+9B75 .<= ''
+9B75 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+9B75 .<= ''
+9B75 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+9B75 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+9B75 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+9B75 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+9B75 .|    |    <= true
+9B75 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+9B75 .|    <= true
+9B75 .<= true
+9B75 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+9B75 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+9B75 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+9B75 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+9B75 .|    |    <= true
+9B75 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+9B75 .|    <= true
+9B75 .<= true
+644A .START (2020-07-19 21:07:49) phpCAS-1.3.8 ****************** [CAS.php:475]
+644A .Loaded configuration:
+644A .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+644A .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+644A .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+644A .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+644A .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+644A .|    <= ''
+644A .<= ''
+644A .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+644A .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+644A .<= ''
+644A .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+644A .<= ''
+644A .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+644A .<= ''
+644A .=> phpCAS::isAuthenticated() [CasManager.php:290]
+644A .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+644A .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+644A .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+644A .|    |    <= true
+644A .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+644A .|    <= true
+644A .<= true
+44A6 .START (2020-07-19 21:09:07) phpCAS-1.3.8 ****************** [CAS.php:475]
+44A6 .Loaded configuration:
+44A6 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+44A6 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+44A6 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+44A6 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+44A6 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+44A6 .|    <= ''
+44A6 .<= ''
+44A6 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+44A6 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+44A6 .<= ''
+44A6 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+44A6 .<= ''
+44A6 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+44A6 .<= ''
+44A6 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+44A6 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+44A6 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+44A6 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+44A6 .|    |    <= true
+44A6 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+44A6 .|    <= true
+44A6 .<= true
+9CC4 .START (2020-07-19 21:09:33) phpCAS-1.3.8 ****************** [CAS.php:475]
+9CC4 .Loaded configuration:
+9CC4 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+9CC4 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+9CC4 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+9CC4 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+9CC4 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+9CC4 .|    <= ''
+9CC4 .<= ''
+9CC4 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+9CC4 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+9CC4 .<= ''
+9CC4 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+9CC4 .<= ''
+9CC4 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+9CC4 .<= ''
+9CC4 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+9CC4 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+9CC4 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+9CC4 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+9CC4 .|    |    <= true
+9CC4 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+9CC4 .|    <= true
+9CC4 .<= true
+0830 .START (2020-07-19 21:10:13) phpCAS-1.3.8 ****************** [CAS.php:475]
+0830 .Loaded configuration:
+0830 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+0830 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+0830 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+0830 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+0830 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+0830 .|    <= ''
+0830 .<= ''
+0830 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+0830 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0830 .<= ''
+0830 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+0830 .<= ''
+0830 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+0830 .<= ''
+0830 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+0830 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+0830 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+0830 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+0830 .|    |    <= true
+0830 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+0830 .|    <= true
+0830 .<= true
+3395 .START (2020-07-19 21:16:10) phpCAS-1.3.8 ****************** [CAS.php:475]
+3395 .Loaded configuration:
+3395 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+3395 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+3395 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+3395 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+3395 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+3395 .|    <= ''
+3395 .<= ''
+3395 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+3395 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+3395 .<= ''
+3395 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+3395 .<= ''
+3395 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+3395 .<= ''
+3395 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+3395 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+3395 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+3395 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+3395 .|    |    <= true
+3395 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+3395 .|    <= true
+3395 .<= true
+C468 .START (2020-07-19 21:21:43) phpCAS-1.3.8 ****************** [CAS.php:475]
+C468 .Loaded configuration:
+C468 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C468 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C468 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C468 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+C468 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+C468 .|    <= ''
+C468 .<= ''
+C468 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C468 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C468 .<= ''
+C468 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C468 .<= ''
+C468 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C468 .<= ''
+C468 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C468 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C468 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C468 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+C468 .|    |    <= true
+C468 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+C468 .|    <= true
+C468 .<= true
+0B93 .START (2020-07-19 21:26:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+0B93 .Loaded configuration:
+0B93 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+0B93 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+0B93 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+0B93 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+0B93 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+0B93 .|    <= ''
+0B93 .<= ''
+0B93 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+0B93 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+0B93 .<= ''
+0B93 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+0B93 .<= ''
+0B93 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+0B93 .<= ''
+0B93 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+0B93 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+0B93 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+0B93 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+0B93 .|    |    <= true
+0B93 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+0B93 .|    <= true
+0B93 .<= true
+82A1 .START (2020-07-19 21:38:45) phpCAS-1.3.8 ****************** [CAS.php:475]
+82A1 .Loaded configuration:
+82A1 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+82A1 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+82A1 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+82A1 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+82A1 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+82A1 .|    <= ''
+82A1 .<= ''
+82A1 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+82A1 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+82A1 .<= ''
+82A1 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+82A1 .<= ''
+82A1 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+82A1 .<= ''
+82A1 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+82A1 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+82A1 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+82A1 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+82A1 .|    |    <= true
+82A1 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+82A1 .|    <= true
+82A1 .<= true
+6490 .START (2020-07-19 21:42:20) phpCAS-1.3.8 ****************** [CAS.php:475]
+6490 .Loaded configuration:
+6490 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+6490 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+6490 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+6490 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+6490 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+6490 .|    <= ''
+6490 .<= ''
+6490 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+6490 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+6490 .<= ''
+6490 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+6490 .<= ''
+6490 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+6490 .<= ''
+6490 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+6490 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+6490 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+6490 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+6490 .|    |    <= true
+6490 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+6490 .|    <= true
+6490 .<= true
+670B .START (2020-07-19 21:42:30) phpCAS-1.3.8 ****************** [CAS.php:475]
+670B .Loaded configuration:
+670B .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+670B .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+670B .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+670B .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+670B .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+670B .|    <= ''
+670B .<= ''
+670B .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+670B .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+670B .<= ''
+670B .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+670B .<= ''
+670B .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+670B .<= ''
+670B .=> phpCAS::isAuthenticated() [CasManager.php:290]
+670B .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+670B .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+670B .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+670B .|    |    <= true
+670B .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+670B .|    <= true
+670B .<= true
+DE8F .START (2020-07-19 21:42:38) phpCAS-1.3.8 ****************** [CAS.php:475]
+DE8F .Loaded configuration:
+DE8F .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+DE8F .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+DE8F .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+DE8F .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+DE8F .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+DE8F .|    <= ''
+DE8F .<= ''
+DE8F .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+DE8F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+DE8F .<= ''
+DE8F .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+DE8F .<= ''
+DE8F .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+DE8F .<= ''
+DE8F .=> phpCAS::isAuthenticated() [CasManager.php:290]
+DE8F .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+DE8F .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+DE8F .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+DE8F .|    |    <= true
+DE8F .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+DE8F .|    <= true
+DE8F .<= true
+EDA9 .START (2020-07-19 21:42:50) phpCAS-1.3.8 ****************** [CAS.php:475]
+EDA9 .Loaded configuration:
+EDA9 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+EDA9 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+EDA9 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+EDA9 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+EDA9 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+EDA9 .|    <= ''
+EDA9 .<= ''
+EDA9 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+EDA9 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+EDA9 .<= ''
+EDA9 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+EDA9 .<= ''
+EDA9 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+EDA9 .<= ''
+EDA9 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+EDA9 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+EDA9 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+EDA9 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+EDA9 .|    |    <= true
+EDA9 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+EDA9 .|    <= true
+EDA9 .<= true
+294D .START (2020-07-19 21:43:24) phpCAS-1.3.8 ****************** [CAS.php:475]
+294D .Loaded configuration:
+294D .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+294D .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+294D .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+294D .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+294D .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+294D .|    <= ''
+294D .<= ''
+294D .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+294D .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+294D .<= ''
+294D .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+294D .<= ''
+294D .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+294D .<= ''
+294D .=> phpCAS::isAuthenticated() [CasManager.php:290]
+294D .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+294D .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+294D .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+294D .|    |    <= true
+294D .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+294D .|    <= true
+294D .<= true
+4ECD .START (2020-07-19 21:43:33) phpCAS-1.3.8 ****************** [CAS.php:475]
+4ECD .Loaded configuration:
+4ECD .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+4ECD .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+4ECD .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+4ECD .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+4ECD .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+4ECD .|    <= ''
+4ECD .<= ''
+4ECD .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+4ECD .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+4ECD .<= ''
+4ECD .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+4ECD .<= ''
+4ECD .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+4ECD .<= ''
+4ECD .=> phpCAS::isAuthenticated() [CasManager.php:290]
+4ECD .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+4ECD .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+4ECD .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+4ECD .|    |    <= true
+4ECD .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+4ECD .|    <= true
+4ECD .<= true
+C86F .START (2020-07-19 21:43:41) phpCAS-1.3.8 ****************** [CAS.php:475]
+C86F .Loaded configuration:
+C86F .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+C86F .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+C86F .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+C86F .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+C86F .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+C86F .|    <= ''
+C86F .<= ''
+C86F .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+C86F .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+C86F .<= ''
+C86F .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+C86F .<= ''
+C86F .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+C86F .<= ''
+C86F .=> phpCAS::isAuthenticated() [CasManager.php:290]
+C86F .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+C86F .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+C86F .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+C86F .|    |    <= true
+C86F .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+C86F .|    <= true
+C86F .<= true
+5936 .START (2020-07-19 21:45:27) phpCAS-1.3.8 ****************** [CAS.php:475]
+5936 .Loaded configuration:
+5936 .a:19:{s:12:"cas_hostname";s:17:"login.lapan.go.id";s:14:"cas_real_hosts";s:17:"login.lapan.go.id";s:16:"cas_session_name";s:7:"CASAuth";s:19:"cas_control_session";b:1;s:9:"cas_proxy";b:0;s:8:"cas_port";i:443;s:7:"cas_uri";s:4:"/cas";s:14:"cas_validation";s:0:"";s:8:"cas_cert";s:0:"";s:15:"cas_validate_cn";b:1;s:13:"cas_login_url";s:0:"";s:14:"cas_logout_url";s:36:"https://login.lapan.go.id/cas/logout";s:19:"cas_logout_redirect";s:37:"http://localhost/eoffice/public/login";s:17:"cas_redirect_path";s:0:"";s:15:"cas_enable_saml";b:0;s:11:"cas_version";s:3:"3.0";s:9:"cas_debug";b:1;s:18:"cas_verbose_errors";b:0;s:14:"cas_masquerade";s:0:"";}
+5936 .=> phpCAS::client('3.0', 'login.lapan.go.id', 443, '/cas', true) [CasManager.php:97]
+5936 .|    => CAS_Client::__construct('3.0', false, 'login.lapan.go.id', 443, '/cas', true) [CAS.php:365]
+5936 .|    |    Starting a new session 0b88a8a1e69f01ca69f3e39208d4413942c669aff1be151b7d1f991af07eeefd [Client.php:932]
+5936 .|    |    Session is authenticated as: herbowo.anggun [Client.php:936]
+5936 .|    <= ''
+5936 .<= ''
+5936 .=> phpCAS::setNoCasServerValidation() [CasManager.php:156]
+5936 .|    You have configured no validation of the legitimacy of the cas server. This is not recommended for production use. [CAS.php:1664]
+5936 .<= ''
+5936 .=> phpCAS::setServerLoginURL('') [CasManager.php:55]
+5936 .<= ''
+5936 .=> phpCAS::setServerLogoutURL('https://login.lapan.go.id/cas/logout') [CasManager.php:62]
+5936 .<= ''
+5936 .=> phpCAS::isAuthenticated() [CasManager.php:290]
+5936 .|    => CAS_Client::isAuthenticated() [CAS.php:1167]
+5936 .|    |    => CAS_Client::_wasPreviouslyAuthenticated() [Client.php:1398]
+5936 .|    |    |    user = `herbowo.anggun' [Client.php:1627]
+5936 .|    |    <= true
+5936 .|    |    user was already authenticated, no need to look for tickets [Client.php:1421]
+5936 .|    <= true
+5936 .<= true
