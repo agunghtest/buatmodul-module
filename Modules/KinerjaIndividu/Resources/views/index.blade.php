@@ -8,7 +8,7 @@
         </ol>
     </nav>
     <h4 class="mg-b-0 tx-spacing--1">Dashboard Kinerja Individu Tahun 2020</h4>
-</div>
+</div>{{ $riwayatLogbookBulanIni->viewDataPersonalPns->nama }}
 @endsection
 @section('content')
 <div class="col-lg-12">
@@ -50,7 +50,7 @@
                                     @if ($riwayatPersetujuanSkp->ket === "Disetujui")tx-success @elseif($riwayatPersetujuanSkp->ket === "Direvisi") tx-warning @elseif($riwayatPersetujuanSkp->ket === "Permohonan Persetujuan") tx-primary
                                     @endif mg-b-0">
                                     {{ $riwayatPersetujuanSkp->ket }}<br>
-                                    {{ formatTanggal($riwayatPersetujuanSkp->tgl, true) }}</small>
+                                    {{ $riwayatPersetujuanSkp->tgl->formatLocalized("%A, %d %B %Y") }}</small>
                                 </div>
                             </li>
                             <li class="list-group-item d-flex pd-sm-x-20">
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Tanggal Pembuatan</p>
-                                    <small class="tx-12 tx-color-01 mg-b-0">{{ formatTanggal($skp->tgl_pembuatan, true) }} </small>
+                                    <small class="tx-12 tx-color-01 mg-b-0">{{ $skp->tgl_pembuatan->formatLocalized("%A, %d %B %Y") }} </small>
                                 </div>
                             </li>
                         </ul>
@@ -154,7 +154,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan ini (Juli)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan ini ({{ bulanSekarang() }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="media d-block d-sm-flex align-items-center">
@@ -182,7 +182,7 @@
                                 </div><!-- media -->
                             </li>
 
-                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya (Juni)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya ({{ bulanSebelumnya() }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="media d-block d-sm-flex align-items-center">
@@ -254,7 +254,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan ini (Juli)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan ini ({{ bulanSekarang() }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
@@ -270,7 +270,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya (Juni)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya ({{ bulanSebelumnya() }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
@@ -334,7 +334,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Ini ({{ $pk->created_at->formatLocalized("%A, %d %B %Y") }})</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Ini ({{ bulanSekarang() }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span
@@ -350,7 +350,7 @@
                                 </div>
                             </li>
 
-                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya (Juni)</li>
+                            <li class="list-group-item d-flex pd-sm-x-20 bg-gray-100">Bulan Sebelumnya ({{ bulanSebelumnya() }})</li>
 
                             <li class="list-group-item d-flex pd-sm-x-20">
                                 <div class="avatar d-none d-sm-block"><span

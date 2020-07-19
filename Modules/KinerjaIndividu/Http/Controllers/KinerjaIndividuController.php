@@ -2,11 +2,14 @@
 
 namespace Modules\KinerjaIndividu\Http\Controllers;
 
+use App\Models\MstLogbook;
 use App\Models\MstPk;
 use App\Models\MstSetLaptek;
 use App\Models\MstSetLogbook;
 use App\Models\RefPersetujuanLaptek;
-
+use App\Models\ViewMasterSkp;
+use App\Models\ViewPenilaiLogbook;
+use App\Models\ViewRiwayatPersetujuanSkp;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -20,12 +23,10 @@ class KinerjaIndividuController extends Controller
      */
     public function index()
     {
-        $skp = DB::table('view_master_skp')
-            ->where('id_pegawai', profilPns('id'))
+        $skp = ViewMasterSkp::where('id_pegawai', profilPns('id'))
             ->first();
 
-        $riwayatPersetujuanSkp = DB::table('view_riwayat_persetujuan_skp')
-            ->where('id_mst_skp', $skp->id)
+        $riwayatPersetujuanSkp = ViewRiwayatPersetujuanSkp::where('id_mst_skp', $skp->id)
             ->first();
 
         $pk = MstPk::where('idp', profilPns('id'))
@@ -40,11 +41,14 @@ class KinerjaIndividuController extends Controller
         $formatLogbook = MstSetLogbook::where('id_mst_pegawai', profilPns('id'))
             ->first();
 
-        $penilaiLogbook = DB::table('view_penilai_logbook')
-            ->where('id_pegawai', profilPns('id'))
+        $penilaiLogbook = ViewPenilaiLogbook::where('id_pegawai', profilPns('id'))
             ->first();
 
-        #dd($pk);
+        $riwayatLogbookBulanIni = MstLogbook::where('id_mst_pegawai', profilPns('id'))
+            ->orderByDesc('created_at')
+            ->first();
+
+        #dd($riwayatPersetujuanSkp);
 
         return view('kinerjaindividu::index', [
             'skp' => $skp,
@@ -53,6 +57,7 @@ class KinerjaIndividuController extends Controller
             'formatCapaianRenaksi' => $formatCapaianRenaksi,
             'formatLogbook' => $formatLogbook,
             'penilaiLogbook' => $penilaiLogbook,
+            'riwayatLogbookBulanIni' => $riwayatLogbookBulanIni,
         ]);
     }
 

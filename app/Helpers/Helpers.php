@@ -1,5 +1,8 @@
 <?php
 
+use App\Models\RefBulan;
+use Illuminate\Support\Carbon;
+
 function profilPns($tampil)
 {
     $idPegawai = 1684;
@@ -17,47 +20,21 @@ function profilPns($tampil)
     }
 }
 
-
-function formatTanggal($tgl, $cetak_hari = false)
-{
-    $hari = array(
-        1 =>    'Senin',
-        'Selasa',
-        'Rabu',
-        'Kamis',
-        'Jumat',
-        'Sabtu',
-        'Minggu'
-    );
-
-    $bulan = array(
-        1 =>   'Januari',
-        'Februari',
-        'Maret',
-        'April',
-        'Mei',
-        'Juni',
-        'Juli',
-        'Agustus',
-        'September',
-        'Oktober',
-        'November',
-        'Desember'
-    );
-    $split       = explode('-', $tgl);
-    $tgl_indo = $split[2] . ' ' . $bulan[(int)$split[1]] . ' ' . $split[0];
-
-    if ($cetak_hari) {
-        $num = date('N', strtotime($tgl));
-        return $hari[$num] . ', ' . $tgl_indo;
-    } else {
-        $num = date('N', strtotime($tgl));
-        return $hari[$num];
-    }
-    return $tgl_indo;
-}
-
 function tahunSekarang()
 {
     return date('Y');
+}
+
+function bulanSekarang()
+{
+    $bulan = RefBulan::where('id', date('n'))
+        ->first();
+    return $bulan->bulan;
+}
+
+function bulanSebelumnya()
+{
+    $bulan = RefBulan::where('id', date("n", strtotime("last day of previous month")))
+        ->first();
+    return $bulan->bulan;
 }
