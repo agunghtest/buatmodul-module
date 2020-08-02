@@ -8,7 +8,7 @@
         </ol>
     </nav>
     <h4 class="mg-b-0 tx-spacing--1">Dashboard Kinerja Individu Tahun 2020</h4>
-</div>{{ $riwayatLogbookBulanIni->viewDataPersonalPns->nama }}
+</div>
 @endsection
 @section('content')
 <div class="col-lg-12">
@@ -327,9 +327,12 @@
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-0">Penilai </p>
                                     <small class="tx-12 tx-color-03 mg-b-0">
+                                        @if(!empty($penilaiLogbook))
                                         {{ $penilaiLogbook->nama_penilai }}<br>
-                                        {{ $penilaiLogbook->jab_penilai }}<br>
+                                        {{ $penilaiLogbook->jabatan_penilai }}<br>
                                         {{ $penilaiLogbook->satker_penilai }}<br>
+                                        @endif
+
                                     </small>
                                 </div>
                             </li>
@@ -342,11 +345,23 @@
                                             data-feather="book-open"></i></span></div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Tanggal Pengajuan</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-color-03 mg-b-0">
+                                        @if(!empty($riwayatLogbookBulanIni))
+                                        {{ $riwayatLogbookBulanIni->tgl_selesai_pengisian }}
+                                        @endif
+                                    </small>
                                     <br><br>
                                     <p class="tx-medium mg-b-0">Status Persetujuan</p>
-                                    <small class="tx-12 tx-danger mg-b-0">Completed</small><br>
-                                    <small class="tx-12 tx-success mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-danger mg-b-0">
+                                        @if(!empty($riwayatLogbookBulanIni))
+                                        {{ $riwayatLogbookBulanIni->ket }}
+                                        @endif
+                                    </small><br>
+                                    <small class="tx-12 tx-success mg-b-0">
+                                        @if(!empty($riwayatLogbookBulanIni))
+                                        {{ $riwayatLogbookBulanIni->tgl_dinilai }}
+                                        @endif
+                                    </small>
                                 </div>
                             </li>
 
@@ -358,11 +373,23 @@
                                             data-feather="book-open"></i></span></div>
                                 <div class="pd-sm-l-10">
                                     <p class="tx-medium mg-b-2">Tanggal Pengajuan</p>
-                                    <small class="tx-12 tx-color-03 mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-color-03 mg-b-0">
+                                        @if(!empty($riwayatLogbookBulanSebelumnya))
+                                        {{ $riwayatLogbookBulanSebelumnya->tgl_selesai_pengisian }}
+                                        @endif
+                                    </small>
                                     <br><br>
                                     <p class="tx-medium mg-b-0">Status Persetujuan</p>
-                                    <small class="tx-12 tx-danger mg-b-0">Completed</small><br>
-                                    <small class="tx-12 tx-success mg-b-0">Mar 21, 2019, 1:00pm</small>
+                                    <small class="tx-12 tx-danger mg-b-0">
+                                        @if(!empty($riwayatLogbookBulanSebelumnya))
+                                        {{ $riwayatLogbookBulanSebelumnya->ket }}
+                                        @endif
+                                    </small><br>
+                                    <small class="tx-12 tx-success mg-b-0">
+                                        @if(!empty($riwayatLogbookBulanSebelumnya))
+                                        {{ $riwayatLogbookBulanSebelumnya->tgl_dinilai }}
+                                        @endif
+                                    </small>
                                 </div>
                             </li>
                         </ul>

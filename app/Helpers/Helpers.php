@@ -1,13 +1,14 @@
 <?php
 
 use App\Models\RefBulan;
+use App\Models\ViewDataPersonalPns;
 use Illuminate\Support\Carbon;
 
 function profilPns($tampil)
 {
     $idPegawai = 1684;
 
-    $dataPns = DB::table('view_data_personal_pns')->where('id', $idPegawai)->first();
+    $dataPns = ViewDataPersonalPns::where('id', $idPegawai)->first();
 
     if ($tampil == "id") {
         return $dataPns->id;

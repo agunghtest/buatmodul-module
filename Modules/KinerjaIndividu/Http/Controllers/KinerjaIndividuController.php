@@ -8,8 +8,9 @@ use App\Models\MstSetLaptek;
 use App\Models\MstSetLogbook;
 use App\Models\RefPersetujuanLaptek;
 use App\Models\ViewMasterSkp;
-use App\Models\ViewPenilaiLogbook;
-use App\Models\ViewRiwayatPersetujuanSkp;
+use App\Models\ViewDetailPenilaiLogbook;
+use App\Models\TrxPersetujuanSkp;
+use App\Models\ViewRiwayatPersetujuanLogbook;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -26,7 +27,7 @@ class KinerjaIndividuController extends Controller
         $skp = ViewMasterSkp::where('id_pegawai', profilPns('id'))
             ->first();
 
-        $riwayatPersetujuanSkp = ViewRiwayatPersetujuanSkp::where('id_mst_skp', $skp->id)
+        $riwayatPersetujuanSkp = TrxPersetujuanSkp::where('id_mst_skp', $skp->id)
             ->first();
 
         $pk = MstPk::where('idp', profilPns('id'))
@@ -41,10 +42,18 @@ class KinerjaIndividuController extends Controller
         $formatLogbook = MstSetLogbook::where('id_mst_pegawai', profilPns('id'))
             ->first();
 
-        $penilaiLogbook = ViewPenilaiLogbook::where('id_pegawai', profilPns('id'))
+        $penilaiLogbook = ViewDetailPenilaiLogbook::where('id_mst_pegawai', profilPns('id'))
             ->first();
 
-        $riwayatLogbookBulanIni = MstLogbook::where('id_mst_pegawai', profilPns('id'))
+        $riwayatLogbookBulanIni = ViewRiwayatPersetujuanLogbook::where('id_pegawai', profilPns('id'))
+            ->where('bulan', bulanSekarang())
+            ->where('tahun', 'tahunSekarang()')
+            ->orderByDesc('created_at')
+            ->first();
+
+        $riwayatLogbookBulanSebelumnya = ViewRiwayatPersetujuanLogbook::where('id_pegawai', profilPns('id'))
+            ->where('bulan', bulanSebelumnya())
+            ->where('tahun', 'tahunSekarang()')
             ->orderByDesc('created_at')
             ->first();
 
@@ -58,6 +67,7 @@ class KinerjaIndividuController extends Controller
             'formatLogbook' => $formatLogbook,
             'penilaiLogbook' => $penilaiLogbook,
             'riwayatLogbookBulanIni' => $riwayatLogbookBulanIni,
+            'riwayatLogbookBulanSebelumnya' => $riwayatLogbookBulanSebelumnya,
         ]);
     }
 
