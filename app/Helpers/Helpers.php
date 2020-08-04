@@ -6,6 +6,7 @@ use Illuminate\Support\Carbon;
 
 function profilPns($tampil)
 {
+    //$idPegawai = 1710;
     $idPegawai = 1684;
 
     $dataPns = ViewDataPersonalPns::where('id', $idPegawai)->first();
