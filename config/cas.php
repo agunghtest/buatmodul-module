@@ -111,7 +111,7 @@ return [
     | If your server supports redirection services, enter the redirect url
     | in this section.  If left blank, it will default to disabled.
     */
-    'cas_logout_redirect' => env('CAS_LOGOUT_REDIRECT', 'http://localhost/eoffice/public/login'),
+    'cas_logout_redirect' => env('CAS_LOGOUT_REDIRECT', 'http://10.17.1.27:8083/login'),
 
     /*
     |--------------------------------------------------------------------------
