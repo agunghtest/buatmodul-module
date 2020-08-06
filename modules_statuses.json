@@ -4,5 +4,6 @@
     "Core": true,
     "Chat": true,
     "Presensi": true,
-    "KinerjaIndividu": true
+    "KinerjaIndividu": true,
+    "CreateModul": true
 }

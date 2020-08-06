@@ -5,6 +5,8 @@ namespace Modules\CreateModul\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Client;
 
 class CreateModulController extends Controller
 {
@@ -14,7 +16,17 @@ class CreateModulController extends Controller
      */
     public function index()
     {
-        return view('createmodul::index');
+        
+        $client = new Client();
+        $res = $client->request('GET', 'https://kinerja.lapan.go.id/sximoapi?module=unitkerja', [
+            'auth' => ['api_dok_perencanaan@mail.com', 'Pxv3/78h0ADJSvO401eD3bRpa']
+        ]);
+
+
+
+        $test= $res->getBody();
+        
+        return view('createmodul::index',['skp' => $test]);
     }
 
     /**
