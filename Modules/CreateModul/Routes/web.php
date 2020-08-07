@@ -13,4 +13,6 @@
 
 Route::prefix('createmodul')->group(function() {
     Route::get('/', 'CreateModulController@index');
+    Route::get('/create', 'CreateModulController@getCreate');
+ 
 });

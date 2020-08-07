@@ -88,4 +88,18 @@ class CreateModulController extends Controller
     {
         //
     }
+
+
+    public function getCreate()
+    {
+
+        $this->data = array(
+            'pageTitle'    => 'Create New Module',
+            'pageNote'    => 'Create Quick Module ',
+        );          
+      //  $this->data['tables'] = Module::getTableList($this->db);
+        $this->data['cruds'] = \SiteHelpers::crudOption(); 
+        return view('createmodul::create',$this->data);       
+    
+    } 
 }
